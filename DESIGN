@@ -1,0 +1,7 @@
+Almost all of the classes hold more members than are mentioned here,
+but those are implementation details and would only obscure the
+overall picture.  This file is only to give a helicopter view of the
+program, not to serve as detailed documentation.
+
+See DESIGN_SCHEME.png file.
+

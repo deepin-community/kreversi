@@ -1,0 +1,1009 @@
+# translation of kreversi.po into Russian
+# KDE3 - kdegames/kreversi.po Russian translation.
+# Copyright (C) 2004 KDE Team.
+#
+# Gregory Mokhin <mokhin@bog.msu.ru>, 2000.
+# Nick Shafff <shafff@ukr.net>, 2003.
+# Gregory Mokhin <mok@kde.ru>, 2005.
+# Artem Sereda <overmind88@gmail.com>, 2008, 2009, 2010.
+# Evgeniy Ivanov <powerfox@kde.ru>, 2008.
+# Alexander Potashev <aspotashev@gmail.com>, 2010, 2017.
+# Alexander Lakhin <exclusion@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kreversi\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-05-18 00:16+0000\n"
+"PO-Revision-Date: 2017-07-16 05:20+0300\n"
+"Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Григорий Мохин"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mokhin@bog.msu.ru"
+
+#: commondefs.cpp:31
+#, kde-format
+msgid "Blue"
+msgstr "Синие"
+
+#: commondefs.cpp:31
+#, kde-format
+msgid "Red"
+msgstr "Красные"
+
+#. i18n: ectx: property (text), widget (QLabel, blackLabel)
+#: commondefs.cpp:32 startgamedialog.ui:24
+#, kde-format
+msgid "Black"
+msgstr "Чёрные"
+
+#. i18n: ectx: property (text), widget (QLabel, whiteLabel)
+#: commondefs.cpp:32 startgamedialog.ui:150
+#, kde-format
+msgid "White"
+msgstr "Белые"
+
+#: kexthighscore.cpp:198
+#, kde-format
+msgid "Score"
+msgstr ""
+
+#: kexthighscore.cpp:201
+#, kde-format
+msgid "Mean Score"
+msgstr "Средний счёт"
+
+#: kexthighscore.cpp:206
+#, kde-format
+msgid "Best Score"
+msgstr "Лучший счёт"
+
+#: kexthighscore.cpp:210
+#, kde-format
+msgid "Elapsed Time"
+msgstr ""
+
+#: kexthighscore_gui.cpp:148
+#, kde-format
+msgid "Best &Scores"
+msgstr ""
+
+#: kexthighscore_gui.cpp:153
+#, kde-format
+msgid "&Players"
+msgstr "&Игроки"
+
+#: kexthighscore_gui.cpp:158
+#, kde-format
+msgid "Statistics"
+msgstr "Статистика"
+
+#: kexthighscore_gui.cpp:164
+#, kde-format
+msgid "Histogram"
+msgstr "Гистограмма"
+
+#: kexthighscore_gui.cpp:171
+#, kde-format
+msgid "View world-wide highscores"
+msgstr ""
+
+#: kexthighscore_gui.cpp:178
+#, kde-format
+msgid "View world-wide players"
+msgstr ""
+
+#: kexthighscore_gui.cpp:224
+#, kde-format
+msgid "Highscores"
+msgstr ""
+
+#: kexthighscore_gui.cpp:288
+#, kde-format
+msgid "Overwrite"
+msgstr ""
+
+#: kexthighscore_gui.cpp:290
+#, kde-format
+msgid "The file already exists. Overwrite?"
+msgstr "Файл уже существует. Заменить его?"
+
+#: kexthighscore_gui.cpp:291
+#, kde-format
+msgid "Export"
+msgstr ""
+
+#: kexthighscore_gui.cpp:342
+#, fuzzy, kde-format
+#| msgid "Beginner"
+msgid "Winner"
+msgstr "Начинающий"
+
+#: kexthighscore_gui.cpp:380
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Won Games"
+msgstr "Григорий Мохин"
+
+#: kexthighscore_gui.cpp:408
+#, kde-format
+msgid "Configure Highscores"
+msgstr ""
+
+#: kexthighscore_gui.cpp:421
+#, kde-format
+msgid "Main"
+msgstr ""
+
+#: kexthighscore_gui.cpp:436 kexthighscore_gui.cpp:475
+#, fuzzy, kde-format
+#| msgid "Name:"
+msgid "Nickname:"
+msgstr "Имя:"
+
+#: kexthighscore_gui.cpp:447
+#, kde-format
+msgid "Comment:"
+msgstr ""
+
+#: kexthighscore_gui.cpp:457
+#, kde-format
+msgid "World-wide highscores enabled"
+msgstr ""
+
+#: kexthighscore_gui.cpp:464
+#, kde-format
+msgid "Advanced"
+msgstr ""
+
+#: kexthighscore_gui.cpp:470
+#, kde-format
+msgid "Registration Data"
+msgstr ""
+
+#: kexthighscore_gui.cpp:481
+#, kde-format
+msgid "Key:"
+msgstr ""
+
+#: kexthighscore_gui.cpp:488 kexthighscore_gui.cpp:531
+#, kde-format
+msgid "Remove"
+msgstr ""
+
+#: kexthighscore_gui.cpp:533
+#, kde-format
+msgid ""
+"This will permanently remove your registration key. You will not be able to "
+"use the currently registered nickname anymore."
+msgstr ""
+
+#: kexthighscore_gui.cpp:576
+#, kde-format
+msgid "Please choose a non empty nickname."
+msgstr ""
+
+#: kexthighscore_gui.cpp:580
+#, kde-format
+msgid "Nickname already in use. Please choose another one"
+msgstr ""
+
+#: kexthighscore_gui.cpp:601
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Enter Your Nickname"
+msgstr "Григорий Мохин"
+
+#: kexthighscore_gui.cpp:610
+#, fuzzy, kde-format
+#| msgid ""
+#| "Congratulations, you have won!\n"
+#| "\n"
+#| "You     : %1\n"
+#| "Computer: %2"
+msgid "Congratulations, you have won!"
+msgstr ""
+"Поздравляю, вы выиграли!\n"
+"\n"
+"Вы        : %1\n"
+"Компьютер : %2"
+
+#: kexthighscore_gui.cpp:615
+#, kde-format
+msgid "Enter your nickname:"
+msgstr ""
+
+#: kexthighscore_gui.cpp:623
+#, kde-format
+msgid "Do not ask again."
+msgstr ""
+
+#: kexthighscore_internal.cpp:33
+#, kde-format
+msgid "anonymous"
+msgstr "анонимный игрок"
+
+#: kexthighscore_internal.cpp:258
+#, kde-format
+msgid "Games Count"
+msgstr "Число игр"
+
+#: kexthighscore_internal.cpp:265
+#, kde-format
+msgid "Comment"
+msgstr ""
+
+#: kexthighscore_internal.cpp:587
+#, kde-format
+msgid "Undefined error."
+msgstr ""
+
+#: kexthighscore_internal.cpp:588
+#, kde-format
+msgid "Missing argument(s)."
+msgstr ""
+
+#: kexthighscore_internal.cpp:589
+#, kde-format
+msgid "Invalid argument(s)."
+msgstr ""
+
+#: kexthighscore_internal.cpp:591
+#, kde-format
+msgid "Unable to connect to MySQL server."
+msgstr ""
+
+#: kexthighscore_internal.cpp:592
+#, kde-format
+msgid "Unable to select database."
+msgstr ""
+
+#: kexthighscore_internal.cpp:593
+#, kde-format
+msgid "Error on database query."
+msgstr ""
+
+#: kexthighscore_internal.cpp:594
+#, kde-format
+msgid "Error on database insert."
+msgstr ""
+
+#: kexthighscore_internal.cpp:596
+#, kde-format
+msgid "Nickname already registered."
+msgstr ""
+
+#: kexthighscore_internal.cpp:597
+#, kde-format
+msgid "Nickname not registered."
+msgstr ""
+
+#: kexthighscore_internal.cpp:598
+#, kde-format
+msgid "Invalid key."
+msgstr ""
+
+#: kexthighscore_internal.cpp:599
+#, kde-format
+msgid "Invalid submit key."
+msgstr ""
+
+#: kexthighscore_internal.cpp:601
+#, kde-format
+msgid "Invalid level."
+msgstr ""
+
+#: kexthighscore_internal.cpp:602
+#, kde-format
+msgid "Invalid score."
+msgstr ""
+
+#: kexthighscore_internal.cpp:606
+#, kde-format
+msgid "Unable to contact world-wide highscore server"
+msgstr ""
+
+#: kexthighscore_internal.cpp:615
+#, kde-format
+msgid "Unable to open temporary file."
+msgstr ""
+
+#: kexthighscore_internal.cpp:624
+#, kde-format
+msgid "Server URL: %1"
+msgstr ""
+
+#: kexthighscore_internal.cpp:645
+#, kde-format
+msgid "Message from world-wide highscores server"
+msgstr ""
+
+#: kexthighscore_internal.cpp:652
+#, kde-format
+msgid "Invalid answer from world-wide highscores server."
+msgstr ""
+
+#: kexthighscore_internal.cpp:653
+#, kde-format
+msgid "Raw message: %1"
+msgstr ""
+
+#: kexthighscore_internal.cpp:665
+#, kde-format
+msgid "Invalid answer from world-wide highscores server (missing item: %1)."
+msgstr ""
+
+#: kexthighscore_item.cpp:266
+#, kde-format
+msgid "Multiplayers Scores"
+msgstr ""
+
+#: kexthighscore_item.cpp:277
+#, kde-format
+msgid "No game played."
+msgstr ""
+
+#: kexthighscore_item.cpp:279
+#, kde-format
+msgid "Scores for last game:"
+msgstr ""
+
+#: kexthighscore_item.cpp:286
+#, kde-format
+msgid "Scores for the last %1 games:"
+msgstr ""
+
+#: kexthighscore_tab.cpp:33
+#, kde-format
+msgid "all"
+msgstr ""
+
+#: kexthighscore_tab.cpp:62
+#, kde-format
+msgid "Select player:"
+msgstr ""
+
+#: kexthighscore_tab.cpp:98
+#, kde-format
+msgid "Total:"
+msgstr ""
+
+#: kexthighscore_tab.cpp:98
+#, kde-format
+msgid "Won:"
+msgstr ""
+
+#: kexthighscore_tab.cpp:98
+#, kde-format
+msgid "Lost:"
+msgstr ""
+
+#: kexthighscore_tab.cpp:99
+#, fuzzy, kde-format
+#| msgid "Draw!"
+msgid "Draw:"
+msgstr "Ничья!"
+
+#: kexthighscore_tab.cpp:102
+#, kde-format
+msgid "Current:"
+msgstr ""
+
+#: kexthighscore_tab.cpp:102
+#, kde-format
+msgid "Max won:"
+msgstr ""
+
+#: kexthighscore_tab.cpp:102
+#, kde-format
+msgid "Max lost:"
+msgstr ""
+
+#: kexthighscore_tab.cpp:117
+#, fuzzy, kde-format
+#| msgid "Game over"
+msgid "Game Counts"
+msgstr "Игра окончена"
+
+#: kexthighscore_tab.cpp:130
+#, kde-format
+msgid "Trends"
+msgstr ""
+
+#: kexthighscore_tab.cpp:218
+#, kde-format
+msgid "From"
+msgstr ""
+
+#: kexthighscore_tab.cpp:219
+#, kde-format
+msgid "To"
+msgstr ""
+
+#: kexthighscore_tab.cpp:220
+#, kde-format
+msgid "Count"
+msgstr ""
+
+#: kexthighscore_tab.cpp:221
+#, kde-format
+msgid "Percent"
+msgstr ""
+
+#. i18n: ectx: label, entry (AnimationSpeed), group (Game)
+#: kreversi.kcfg:9
+#, kde-format
+msgid "The speed of the animations."
+msgstr "Скорость анимации."
+
+#. i18n: ectx: label, entry (CompetitiveGameChoice), group (Game)
+#: kreversi.kcfg:18
+#, kde-format
+msgid "Whether to play competitively in contrast to casually."
+msgstr "Выбор типа игры: соревнование или случайная игра."
+
+#. i18n: ectx: label, entry (UseColoredChips), group (Game)
+#: kreversi.kcfg:22
+#, kde-format
+msgid "Whether to use colored chips instead of black and white ones."
+msgstr "Использовать цветные фишки вместо чёрно-белых."
+
+#. i18n: ectx: Menu (view)
+#: kreversiui.rc:13
+#, kde-format
+msgid "&View"
+msgstr "&Вид"
+
+#. i18n: ectx: Menu (settings)
+#: kreversiui.rc:18
+#, kde-format
+msgid "&Settings"
+msgstr "&Настройка"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kreversiui.rc:25
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Основная панель инструментов"
+
+#: kreversiview.cpp:240
+#, fuzzy, kde-format
+#| msgid "White can not perform any move. It is black turn again."
+msgid "Red can not perform any move. It is blue turn again."
+msgstr "Белые не могут ходить. Снова ход чёрных."
+
+#: kreversiview.cpp:241
+#, kde-format
+msgid "White can not perform any move. It is black turn again."
+msgstr "Белые не могут ходить. Снова ход чёрных."
+
+#: kreversiview.cpp:250
+#, fuzzy, kde-format
+#| msgid "Black can not perform any move. It is white turn again."
+msgid "Blue can not perform any move. It is red turn again."
+msgstr "Чёрные не могут ходить. Снова ход белых."
+
+#: kreversiview.cpp:251
+#, kde-format
+msgid "Black can not perform any move. It is white turn again."
+msgstr "Чёрные не могут ходить. Снова ход белых."
+
+#: main.cpp:32
+#, kde-format
+msgid "KReversi"
+msgstr "KReversi"
+
+#: main.cpp:34
+#, kde-format
+msgid "KDE Reversi Board Game"
+msgstr "Настольная игра «Реверси» для KDE"
+
+#: main.cpp:36
+#, kde-format
+msgid ""
+"(c) 1997-2000, Mario Weilguni\n"
+"(c) 2004-2006, Inge Wallin\n"
+"(c) 2006, Dmitry Suzdalev"
+msgstr ""
+"© Mario Weilgun, 1997-2000i\n"
+"© Inge Wallin, 2004-2006,\n"
+"© Dmitry Suzdalev, 2006"
+
+#: main.cpp:37
+#, fuzzy, kde-format
+#| msgid "http://games.kde.org/kreversi"
+msgid "https://kde.org/applications/games/org.kde.kreversi"
+msgstr "http://games.kde.org/kreversi"
+
+#: main.cpp:38
+#, kde-format
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#: main.cpp:38 main.cpp:39
+#, kde-format
+msgid "Original author"
+msgstr "Автор"
+
+#: main.cpp:39
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: main.cpp:40
+#, kde-format
+msgid "Dmitry Suzdalev"
+msgstr "Дмитрий Суздалев"
+
+#: main.cpp:40
+#, kde-format
+msgid "Game rewrite for KDE4. Current maintainer."
+msgstr "Перенос игры на KDE4. Текущий сопровождающий"
+
+#: main.cpp:41
+#, kde-format
+msgid "Simon Hürlimann"
+msgstr "Simon Hürlimann"
+
+#: main.cpp:41
+#, kde-format
+msgid "Action refactoring"
+msgstr "Рефакторинг действий"
+
+#: main.cpp:42
+#, kde-format
+msgid "Mats Luthman"
+msgstr "Mats Luthman"
+
+#: main.cpp:42
+#, kde-format
+msgid "Game engine, ported from his JAVA applet."
+msgstr "Движок игры, портированный из JAVA."
+
+#: main.cpp:43
+#, kde-format
+msgid "Arne Klaassen"
+msgstr "Arne Klaassen"
+
+#: main.cpp:43
+#, kde-format
+msgid "Original raytraced chips."
+msgstr "Оригинальные объёмные фишки."
+
+#: main.cpp:44
+#, kde-format
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#: main.cpp:44
+#, kde-format
+msgid "Vector chips and background for KDE4."
+msgstr "Векторные фишки и фон для KDE4"
+
+#: main.cpp:45
+#, kde-format
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#: main.cpp:45
+#, kde-format
+msgid "Port rendering code to KGameRenderer"
+msgstr "Перенос обработки на библиотеку KGameRenderer"
+
+#: main.cpp:46
+#, kde-format
+msgid "Denis Kuplyakov"
+msgstr "Denis Kuplyakov"
+
+#: main.cpp:46
+#, kde-format
+msgid "Port rendering code to QML, redesign and a lot of improvements"
+msgstr "Перевод кода графики на QML, множество улучшений"
+
+#: main.cpp:52
+#, kde-format
+msgid "Start with demo game playing"
+msgstr "Начать демонстрацию игры"
+
+#: mainwindow.cpp:51
+#, kde-format
+msgid "Press start game!"
+msgstr "Нажмите «Начать игру»!"
+
+#: mainwindow.cpp:66
+#, kde-format
+msgid "Move History"
+msgstr "История ходов"
+
+#: mainwindow.cpp:113
+#, kde-format
+msgid "Show Last Move"
+msgstr "Показать последний ход"
+
+#: mainwindow.cpp:118
+#, kde-format
+msgid "Show Legal Moves"
+msgstr "Показать возможные ходы"
+
+#: mainwindow.cpp:123
+#, kde-format
+msgid "Animation Speed"
+msgstr "Скорость анимации"
+
+#: mainwindow.cpp:127
+#, kde-format
+msgid "Slow"
+msgstr "Медленно"
+
+#: mainwindow.cpp:127
+#, kde-format
+msgid "Normal"
+msgstr "Обычная"
+
+#: mainwindow.cpp:127
+#, kde-format
+msgid "Fast"
+msgstr "Быстро"
+
+#: mainwindow.cpp:132
+#, kde-format
+msgid "Use Colored Chips"
+msgstr "Использовать цветные фишки"
+
+#: mainwindow.cpp:140
+#, kde-format
+msgid "Show Move History"
+msgstr "Показать историю ходов"
+
+#: mainwindow.cpp:218 mainwindow.cpp:233 mainwindow.cpp:246 mainwindow.cpp:254
+#, kde-format
+msgid "Game is drawn!"
+msgstr "Игра закончилась вничью!"
+
+#: mainwindow.cpp:221 mainwindow.cpp:236
+#, kde-format
+msgid "You win!"
+msgstr "Вы выиграли!"
+
+#: mainwindow.cpp:224 mainwindow.cpp:239
+#, kde-format
+msgid "You have lost!"
+msgstr "Вы проиграли!"
+
+#: mainwindow.cpp:248 mainwindow.cpp:250 mainwindow.cpp:256 mainwindow.cpp:258
+#, kde-format
+msgid "%1 has won!"
+msgstr "Победил %1!"
+
+#: mainwindow.cpp:264 mainwindow.cpp:265 mainwindow.cpp:267 mainwindow.cpp:268
+#, kde-format
+msgid ""
+"\n"
+"%1: %2"
+msgstr ""
+"\n"
+"%1: %2"
+
+#: mainwindow.cpp:271
+#, kde-format
+msgid "Game over"
+msgstr "Игра окончена"
+
+#: mainwindow.cpp:338
+#, kde-format
+msgid "GAME OVER"
+msgstr "Игра окончена"
+
+#: mainwindow.cpp:343 mainwindow.cpp:344 mainwindow.cpp:350 mainwindow.cpp:351
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: mainwindow.cpp:347
+#, kde-format
+msgid "%1 turn"
+msgstr "Ходит %1"
+
+#: mainwindow.cpp:354
+#, kde-format
+msgid "%1's turn"
+msgstr "Ходит %1"
+
+#: mainwindow.cpp:364 startgamedialog.cpp:155 startgamedialog.cpp:169
+#, kde-format
+msgid "Computer"
+msgstr "Компьютер"
+
+#: startgamedialog.cpp:26
+#, kde-format
+msgid "New game"
+msgstr "Новая игра"
+
+#: startgamedialog.cpp:36
+#, kde-format
+msgid "Start game"
+msgstr "Начать игру"
+
+#: startgamedialog.cpp:37
+#, kde-format
+msgid "Let's start playing!"
+msgstr "Давайте начнём игру!"
+
+#: startgamedialog.cpp:38
+#, kde-format
+msgid "Quit"
+msgstr "Выход"
+
+#: startgamedialog.cpp:39
+#, kde-format
+msgid "Quit KReversi"
+msgstr "Выход из KReversi"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: startgamedialog.ui:83 startgamedialog.ui:209
+#, kde-format
+msgid "Name:"
+msgstr "Имя:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: startgamedialog.ui:100 startgamedialog.ui:226
+#, kde-format
+msgid "Skill level:"
+msgstr "Уровень сложности:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: startgamedialog.ui:128
+#, kde-format
+msgid "VS"
+msgstr "Против"
+
+#~ msgid "Very Easy"
+#~ msgstr "Очень лёгкий"
+
+#~ msgid "Easy"
+#~ msgstr "Лёгкий"
+
+#~ msgid "Hard"
+#~ msgstr "Трудный"
+
+#~ msgid "Very Hard"
+#~ msgstr "Сложный"
+
+#~ msgid "Unbeatable"
+#~ msgstr "Непреодолимый"
+
+#~ msgid "Champion"
+#~ msgstr "Чемпион"
+
+#, fuzzy
+#~| msgid "Port rendering code to KGameRenderer"
+#~ msgid "Port rendering code to QML"
+#~ msgstr "Перенос обработки на библиотеку KGameRenderer"
+
+#~ msgid "Your turn."
+#~ msgstr "Ваш ход"
+
+#~ msgid "You: %1"
+#~ msgstr "Вы: %1"
+
+#~ msgid ""
+#~ "\n"
+#~ "You: %1"
+#~ msgstr ""
+#~ "\n"
+#~ "Вы: %1"
+
+#~ msgid "Difficulty level"
+#~ msgstr "Уровень сложности"
+
+#~ msgid "Players && Seats"
+#~ msgstr "Игроки и места"
+
+#~ msgid "Opponent"
+#~ msgstr "Партнёр"
+
+#, fuzzy
+#~ msgid "Computer Skill"
+#~ msgstr "&Уровень компьютера"
+
+#~ msgid "The strength of the computer player."
+#~ msgstr "Сила интеллекта компьютерного игрока."
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "Computer: %1"
+#~ msgstr "Ход компьютера"
+
+#, fuzzy
+#~ msgid "Computer turn."
+#~ msgstr "Ход компьютера"
+
+#~ msgid "Click"
+#~ msgstr "Щелчок"
+
+#~ msgid "1 (Beginner)"
+#~ msgstr "1 (начинающий)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4 (Average)"
+#~ msgstr "4 (средний)"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7 (Expert)"
+#~ msgstr "7 (эксперт)"
+
+#~ msgid "&Stop Thinking"
+#~ msgstr "&Хватит думать!"
+
+#~ msgid "&Continue Thinking"
+#~ msgstr "&Продолжить думать"
+
+#~ msgid "S&witch Sides"
+#~ msgstr "П&оменять стороны"
+
+#~ msgid ""
+#~ "You are already running an unfinished game.  If you abort the old game to "
+#~ "start a new one, the old game will be registered as a loss in the "
+#~ "highscore file.\n"
+#~ "What do you want to do?"
+#~ msgstr ""
+#~ "Игра ещё продолжается.\n"
+#~ "Если вы прервёте старую игру, \n"
+#~ "в таблице рекордов вам будет записан\n"
+#~ "проигрыш.\n"
+#~ "\n"
+#~ "Что вы хотите сделать?"
+
+#~ msgid "Abort Current Game?"
+#~ msgstr "Прервать игру?"
+
+#~ msgid "Abort Old Game"
+#~ msgstr "Прервать старую игру"
+
+#~ msgid "Continue Old Game"
+#~ msgstr "Продолжить старую игру"
+
+#~ msgid "You cannot switch sides in the middle of the computer's move."
+#~ msgstr "Вы не можете поменять стороны в середине хода противника."
+
+#~ msgid "Notice"
+#~ msgstr "Предупреждение"
+
+#~ msgid "If you switch side, your score will not be added to the highscores."
+#~ msgstr ""
+#~ "Если вы поменяете сторону, ваши очки не будут показаны в таблице рекордов."
+
+#~ msgid " (interrupted)"
+#~ msgstr " (прервана)"
+
+#~ msgid "Illegal move"
+#~ msgstr "Неправильный ход"
+
+#~ msgid "End of game"
+#~ msgstr "Конец игры"
+
+#~ msgid ""
+#~ "Game is drawn!\n"
+#~ "\n"
+#~ "You     : %1\n"
+#~ "Computer: %2"
+#~ msgstr ""
+#~ "Игра завершилась вничью!\n"
+#~ "\n"
+#~ "Вы       : %1\n"
+#~ "Компьютер: %2"
+
+#~ msgid "Game Ended"
+#~ msgstr "Конец игры"
+
+#~ msgid ""
+#~ "You have lost the game!\n"
+#~ "\n"
+#~ "You     : %1\n"
+#~ "Computer: %2"
+#~ msgstr ""
+#~ "Вы проиграли!\n"
+#~ "\n"
+#~ "Вы        : %1\n"
+#~ "Компьютер : %2"
+
+#~ msgid "General"
+#~ msgstr "Общие"
+
+#~ msgid "Comments and bugfixes."
+#~ msgstr "Комментарии и заплатки."
+
+#~ msgid "Cleaning, bugfixes, some enhancements."
+#~ msgstr "Подчистка кода, исправление ошибок, улучшения."
+
+#~ msgid "Moves"
+#~ msgstr "Ходы"
+
+#~ msgid "&Move"
+#~ msgstr "&Ход"
+
+#~ msgid "&Grayscale chips"
+#~ msgstr "&Чёрно-белые фишки"
+
+#~ msgid "Play Game"
+#~ msgstr "Играть"
+
+#~ msgid "Casually"
+#~ msgstr "Случайная игра"
+
+#~ msgid "Competitively"
+#~ msgstr "Соревнование"
+
+#~ msgid "Expert"
+#~ msgstr "Эксперт"
+
+#~ msgid "Average"
+#~ msgstr "Любитель"
+
+#~ msgid "&Animation"
+#~ msgstr "&Анимация"
+
+#~ msgid "&Background"
+#~ msgstr "&Фон"
+
+#~ msgid "Color:"
+#~ msgstr "Цвет:"
+
+#~ msgid "&Image:"
+#~ msgstr "&Рисунок:"
+
+#~ msgid "The human color."
+#~ msgstr "Цвет обычного игрока."
+
+#~ msgid "The computer color."
+#~ msgstr "Цвет компьютерного игрока."
+
+#~ msgid "Whether to use animations."
+#~ msgstr "Использовать анимацию."
+
+#~ msgid "The zoom factor of the board."
+#~ msgstr "Размер доски."
+
+#~ msgid "Whether to use a background image."
+#~ msgstr "Использовать фоновое изображение."
+
+#~ msgid "The background color to use."
+#~ msgstr "Использовать цвет фона."
+
+#~ msgid "Image to use as background."
+#~ msgstr "Фоновое изображение."
+
+#~ msgid "Whether the menubar is visible."
+#~ msgstr "Показывать/скрыть полосу меню."
