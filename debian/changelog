@@ -1,3 +1,9 @@
+kreversi (4:21.08.0-1deepin1) unstable; urgency=medium
+
+  * fix: missing include QQmlContext prevents building
+
+ -- sisungo <sisungo@icloud.com>  Mon, 13 Oct 2025 22:31:22 +0800
+
 kreversi (4:21.08.0-1) unstable; urgency=medium
 
   [ Norbert Preining ]
